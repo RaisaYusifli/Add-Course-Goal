@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,700;1,400&display=swap');
+/*  Headings, Call-to-actions, Header Navigation
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+ */
+.text{
+    font-family: 'Raleway', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+:root{   
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+}
+.can:hover{
+    cursor: pointer;
+    color: var(--moderate-cyan);
+}
+.can{
+    color: var(--moderate-cyan);
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+.bottom{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-footer{
+    width: 300px;
+    height: auto;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 30px;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 1rem;
+}
+.profile h3{
+    font-size: .7rem;
+    color: black;
+    margin-bottom: 3px;
+}
+.profile h5{
+    font-size: .5rem;
+    color: grey;
+    
+}
+.purple{
+    background-color: var(--desaturated-blue);
+    height: auto;
+    padding: 50px;
+}
+.blue{
+    background-color: var(--very-dark-blue);
+    height: auto;
+    padding: 50px;
+}
+.icons:hover{
+  cursor: pointer;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: var(--desaturated-blue);
+}
+input:focus div>span{
+    display: block;
+}
+
